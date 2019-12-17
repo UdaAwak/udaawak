@@ -17,5 +17,5 @@ Route::get('/', function () {
 
 
 Route::get('/admin', function () {
-    return view('admin.templates.partials.default');
+    return view('admin.user.index');
 });
